@@ -1,0 +1,110 @@
+[14:16:28] [main/INFO]: Loading Minecraft 1.18.1 with Fabric Loader 0.12.12
+[14:16:28] [main/WARN]: Warnings were found!
+ - Mod 'Fabric Rendering Fluids (v1)' (fabric-rendering-fluids-v1) 0.1.18+3ac43d9565 recommends any version of fabric-textures-v0, which is disabled for this environment (client/server only)!
+	 - You should install any version of fabric-textures-v0 for the optimal experience.
+[14:16:28] [main/INFO]: Loading 40 mods:
+	- fabric 0.45.2+1.18
+	- fabric-api-base 0.4.1+b4f4f6cd65 via fabric
+	- fabric-api-lookup-api-v1 1.5.0+17be577f65 via fabric
+	- fabric-biome-api-v1 6.0.1+ded849a965 via fabric
+	- fabric-command-api-v1 1.1.6+3ac43d9565 via fabric
+	- fabric-commands-v0 0.2.5+b4f4f6cd65 via fabric
+	- fabric-containers-v0 0.1.18+d154e2c665 via fabric
+	- fabric-content-registries-v0 0.4.5+6f53a73d65 via fabric
+	- fabric-crash-report-info-v1 0.1.8+3ac43d9565 via fabric
+	- fabric-dimensions-v1 2.1.9+a1d9bbf565 via fabric
+	- fabric-entity-events-v1 1.4.5+6b21378a65 via fabric
+	- fabric-events-interaction-v0 0.4.16+bfa23f1765 via fabric
+	- fabric-events-lifecycle-v0 0.2.6+b4f4f6cd65 via fabric
+	- fabric-game-rule-api-v1 1.0.10+3ac43d9565 via fabric
+	- fabric-item-api-v1 1.3.0+691a79b565 via fabric
+	- fabric-item-groups-v0 0.3.3+3ac43d9565 via fabric
+	- fabric-lifecycle-events-v1 1.4.10+c15ca33565 via fabric
+	- fabric-loot-tables-v1 1.0.8+3ac43d9565 via fabric
+	- fabric-mining-level-api-v1 1.0.3+3ac43d9565 via fabric
+	- fabric-mining-levels-v0 0.1.8+b4f4f6cd65 via fabric
+	- fabric-networking-api-v1 1.0.18+3ac43d9565 via fabric
+	- fabric-networking-v0 0.3.5+b4f4f6cd65 via fabric
+	- fabric-object-builder-api-v1 1.11.1+3b82842e65 via fabric
+	- fabric-object-builders-v0 0.7.9+3ac43d9565 via fabric
+	- fabric-particles-v1 0.2.9+526dc1ac65 via fabric
+	- fabric-registry-sync-v0 0.9.0+befed49e65 via fabric
+	- fabric-rendering-data-attachment-v1 0.3.4+7242e9d765 via fabric
+	- fabric-rendering-fluids-v1 0.1.18+3ac43d9565 via fabric
+	- fabric-resource-loader-v0 0.4.11+3ac43d9565 via fabric
+	- fabric-screen-handler-api-v1 1.1.11+3ac43d9565 via fabric
+	- fabric-structure-api-v1 2.0.8+295197a765 via fabric
+	- fabric-tag-extensions-v0 1.2.5+3ac43d9565 via fabric
+	- fabric-tool-attribute-api-v1 1.3.5+fb3b57b465 via fabric
+	- fabric-transfer-api-v1 1.5.6+b4f4f6cd65 via fabric
+	- fabricloader 0.12.12
+	- java 17
+	- lithium 0.7.7
+	- minecraft 1.18.1
+	- phosphor 0.8.1
+	- voicechat 1.18.1-2.1.28
+[14:16:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/mrpot/Desktop/Minecraft%20Server/libraries/net/fabricmc/sponge-mixin/0.10.7+mixin.0.8.4/sponge-mixin-0.10.7+mixin.0.8.4.jar Service=Knot/Fabric Env=SERVER
+[14:16:29] [main/INFO]: Compatibility level set to JAVA_16
+[14:16:29] [main/INFO]: Compatibility level set to JAVA_17
+[14:16:29] [main/INFO]: Loaded configuration file for Lithium: 88 options available, 0 override(s) found
+[14:16:32] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=3 on fabric-lifecycle-events-v1.mixins.json:server.WorldChunkMixin::handler$zcb000$onLoadBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[14:16:34] [main/INFO]: Compatibility version 12
+[14:16:34] [main/INFO]: Loading plugins
+[14:16:34] [main/INFO]: Loaded 0 plugin(s)
+[14:16:34] [main/INFO]: Initializing plugins
+[14:16:34] [main/INFO]: Initialized 0 plugin(s)
+[14:16:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:16:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:16:37] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:16:37] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:16:38] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:16:38] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:16:38] [main/INFO]: Reloading ResourceManager: Default, Fabric Mods (Fabric Tool Attribute API (v1)), CraftingTweaks.zip, afk display v1.1.2.zip, armor statues v2.8.3.zip, cauldron concrete v2.0.5.zip, custom nether portals v2.3.4.zip, double shulker shells v1.3.2.zip, dragon drops v1.3.2.zip, fast leaf decay v2.0.5.zip, graves v2.8.5.zip, more mob heads v2.9.4.zip, multiplayer sleep v2.6.2.zip, nether portal coords v1.1.2.zip, player head drops v1.1.2.zip, real time clock v1.1.2.zip, redstone rotation wrench v1.1.3.zip, silence mobs v1.1.2.zip, terracotta rotation wrench v1.1.3.zip, track raw statistics v1.5.2.zip, unlock all recipes v2.0.3.zip
+[14:16:39] [Worker-Main-15/INFO]: Loaded 7 recipes
+[14:16:39] [Worker-Main-15/INFO]: Loaded 1234 advancements
+[14:16:41] [main/INFO]: Applied 0 biome modifications to 0 of 61 new biomes in 2.070 ms
+[14:16:42] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[14:16:42] [Server thread/INFO]: Loading properties
+[14:16:42] [Server thread/INFO]: Default game type: SURVIVAL
+[14:16:42] [Server thread/INFO]: Generating keypair
+[14:16:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:16:42] [Server thread/INFO]: Using default channel type
+[14:16:43] [Server thread/INFO]: Preparing level "world"
+[14:16:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:16:45] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[14:16:45] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[14:16:45] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[14:16:45] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[14:16:45] [Worker-Main-16/INFO]: Preparing spawn area: 0%
+[14:16:46] [Worker-Main-17/INFO]: Preparing spawn area: 0%
+[14:16:46] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[14:16:50] [Worker-Main-17/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-15/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-15/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-17/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-17/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-17/INFO]: Preparing spawn area: 4%
+[14:16:50] [Worker-Main-18/INFO]: Preparing spawn area: 8%
+[14:16:50] [Worker-Main-22/INFO]: Preparing spawn area: 17%
+[14:16:51] [Worker-Main-18/INFO]: Preparing spawn area: 26%
+[14:16:51] [Worker-Main-21/INFO]: Preparing spawn area: 37%
+[14:16:52] [Worker-Main-14/INFO]: Preparing spawn area: 53%
+[14:16:52] [Worker-Main-20/INFO]: Preparing spawn area: 65%
+[14:16:53] [Worker-Main-20/INFO]: Preparing spawn area: 70%
+[14:16:53] [Worker-Main-20/INFO]: Preparing spawn area: 84%
+[14:16:54] [Worker-Main-16/INFO]: Preparing spawn area: 99%
+[14:16:54] [Server thread/INFO]: Time elapsed: 10791 ms
+[14:16:54] [Server thread/INFO]: Done (11.319s)! For help, type "help"
+[14:16:54] [Server thread/INFO]: Using default voicechat socket implementation
+[14:16:54] [VoiceChatServerThread/INFO]: Server started at port 24454
+[14:17:00] [Server thread/WARN]: UUID of added entity already exists: class_1531['Armor Stand'/135, l='ServerLevel[world]', x=16562064.50, y=1000.00, z=-22242911.50]
+[14:17:01] [User Authenticator #1/INFO]: UUID of player ManiacalDorito is a4dbcc0b-f0eb-4285-959b-c03f01486f78
+[14:17:02] [Server thread/INFO]: ManiacalDorito[/127.0.0.1:63583] logged in with entity id 136 at (162.74811522829117, 70.0, 219.82038999082985)
+[14:17:02] [Server thread/INFO]: ManiacalDorito joined the game
+[14:17:02] [Netty Server IO #1/INFO]: Received secret request of ManiacalDorito (12)
+[14:17:02] [Netty Server IO #1/INFO]: Sent secret to ManiacalDorito
+[14:17:02] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player a4dbcc0b-f0eb-4285-959b-c03f01486f78
+[14:20:07] [Server thread/INFO]: ManiacalDorito lost connection: Disconnected
+[14:20:07] [Server thread/INFO]: ManiacalDorito left the game
+[14:20:07] [Server thread/INFO]: Disconnecting client ManiacalDorito
+[14:20:07] [VoiceChatPacketProcessingThread/WARN]: Failed to read packet from /127.0.0.1:50891
